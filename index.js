@@ -8,7 +8,9 @@ return array
 
 function johnLennonFacts(facts){
   const yelling = [];
-  while (facts < 4){
-    return[`${facts}+!!!`]
+  let i = 0;
+  while (i < facts.length){
+    yelling.push(`${facts[i]}!!!`)
   }
+  return yelling
 }
