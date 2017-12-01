@@ -7,6 +7,9 @@ return array
 }
 
 function johnLennonFacts(facts){
-  const yelling = []
-
+  const yelling = [];
+  while (facts < 4){
+    return[`${facts}+!!!`]
+  }
 }
+
